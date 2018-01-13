@@ -1,1 +1,3 @@
-BLDROOT=/home/wzs/hecvm/linux
+#!/bin/bash
+BLDROOT=`pwd`
+echo ${BLDROOT}
