@@ -1,5 +1,5 @@
-#!/bin/sh
-BLDROOT=/home/wzs/hecvm
+#!/bin/bash
+source root.sh
 
 echo  "MOV HASHTBL+++++++++++++++++++++"
  
