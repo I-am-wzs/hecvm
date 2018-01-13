@@ -73,7 +73,7 @@ void shutDown(U1 code);
 + function definitions                                              +
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	CommandLine cmdLine(&maxErrors);
 	nErrors = 0;
@@ -162,7 +162,7 @@ void main(int argc, char *argv[])
 	
 	printf("main(): exiting with (%d) errors\n",nErrors);
 	shutDown(SHUTDOWN_OK);
-	return;
+	return 0;
 
 }/*end main*/
 

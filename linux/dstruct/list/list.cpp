@@ -106,7 +106,7 @@ void List::printList()
 
 /*-----------------------------------------------------------------*/
 
-void main()
+int main()
 {
 
 	List list(4,4);
@@ -132,6 +132,6 @@ void main()
 
 	printf("list[2]=%d\n",list.ptr[2]);
 
-	return;
+	return 0;
 
 }/*end main*/

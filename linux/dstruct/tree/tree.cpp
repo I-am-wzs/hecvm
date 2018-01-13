@@ -219,7 +219,7 @@ int BinarySearchTree::getHeight(struct BiNode *link)
 
 /*-----------------------------------------------------------------*/
 
-void main()
+int main()
 {
 	BinarySearchTree bst;
 	bst.root_ptr=NULL;
@@ -259,6 +259,6 @@ void main()
 	printf("height=%d\n",bst.getHeight(bst.root_ptr));
 	bst.printTree(bst.root_ptr,0);
 	
-	return;
+	return 0;
 
 }/*end main*/

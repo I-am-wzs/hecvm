@@ -1,2 +1,2 @@
 tree:
-	gcc -o tree -w ./tree.cpp
+	g++ -o tree -w ./tree.cpp

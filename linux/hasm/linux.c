@@ -95,7 +95,7 @@ U1 fb[8];
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 void checkEndian();
-void printBytes(U1 bytes[], int nbytes);
+void printBytes(S1 bytes[], int nbytes);
 void testConversion();
 
 U2 bytecodeToWord(U1 bytes[]);
@@ -359,14 +359,17 @@ void doubleToBytecode(F8 dbl, U1 arr[])
 	this prints out the bytes of a datatype
 */
 
-void printBytes(U1 bytes[], int nbytes)
+
+
+void printBytes(S1 bytes[], int nbytes)
 {
 	int i;
-	for(i=0; i<nbytes; i++){ printf("byte[%u]=%X ",i,(U1)bytes[i]); }
+	for(i=0; i<nbytes; i++){ printf("byte[%u]=%X ",i,(S1)bytes[i]); }
 	printf("\n");
 	return;
 
 }/*end printBytes*/
+
 
 /*-----------------------------------------------------------------*/
 

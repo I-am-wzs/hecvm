@@ -1,7 +1,8 @@
 #!/bin/sh
-BLDROOT=/root/src
+BLDROOT=/home/wzs/hecvm
 
-echo  "WIPE HASHTBL++++++++++++++++++++" 
+echo  "WIPE HASHTBL++++++++++++++++++++"
+ 
 cd  ${BLDROOT}/dstruct/hashtbl/
 rm ./hashtbl
  
@@ -32,6 +33,10 @@ rm ./filedmp
 echo  "WIPE NUMFMT+++++++++++++++++++++"  
 cd  ${BLDROOT}/util/numfmt/
 rm ./numfmt
+
+echo  "WIPE ALL BIN+++++++++++++++++++++"  
+cd  ${BLDROOT}/bin
+rm *
  
 echo  "GO HOME+++++++++++++++++++++++++"  
 cd  ${BLDROOT}

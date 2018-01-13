@@ -1,2 +1,2 @@
 hasm:
-	gcc -o hasm -w -I./ -DLINUX_x86 ./main.cpp
+	g++ -o hasm -w -I./ -DLINUX_x86 ./main.cpp

@@ -263,7 +263,7 @@ freeing them is wasted. Quicker, and easier to let the assembler
 complete and let the operating system reclaim everything. 
 */
 
-void main()
+int main()
 {
 	char str[32];
 	HashTable ht;
@@ -306,7 +306,7 @@ void main()
 	else{ printf("did NOT find %s\n",str); }
 
 
-	return;
+	return 0;
 	
 }/*end main*/
 

@@ -1,2 +1,2 @@
 hashtbl:
-	gcc -o hashtbl -w ./hashtbl.cpp
+	g++ -o hashtbl -w ./hashtbl.cpp

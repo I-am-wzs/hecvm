@@ -1,7 +1,8 @@
 #!/bin/sh
-BLDROOT=/root/src
+BLDROOT=/home/wzs/hecvm
 
-echo  "MOV HASHTBL+++++++++++++++++++++" 
+echo  "MOV HASHTBL+++++++++++++++++++++"
+ 
 cd  ${BLDROOT}/dstruct/hashtbl/
 cp ./hashtbl  ${BLDROOT}/bin/hashtbl
  

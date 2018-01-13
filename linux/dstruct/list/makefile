@@ -1,2 +1,2 @@
 list:
-	gcc -o list -w ./list.cpp
+	g++ -o list -w ./list.cpp

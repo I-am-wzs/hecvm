@@ -1,53 +1,55 @@
 #!/bin/sh
-BLDROOT=/root/src
+BLDROOT=/home/wzs/hecvm
+
 echo Build root is $BLDROOT
 
 echo " "
-echo  "BUILDING HASHTBL++++++++++++++++" 
+echo  "BUILDING HASHTBL++++++++++++++++"
+ 
 cd  ${BLDROOT}/dstruct/hashtbl/
-rm ./hashtbl
+rm -rf ./hashtbl
 make hashtbl
 
 echo " " 
 echo  "BUILDING LIST+++++++++++++++++++"  
 cd  ${BLDROOT}/dstruct/list/
-rm ./list
+rm -rf ./list
 make list
 
 echo " " 
 echo  "BUILDING TREE+++++++++++++++++++"  
 cd  ${BLDROOT}/dstruct/tree/
-rm ./tree
+rm -rf ./tree
 make tree
 
 echo " " 
 echo  "BUILDING HASM+++++++++++++++++++"  
 cd  ${BLDROOT}/hasm/
-rm ./hasm
+rm -rf ./hasm
 make hasm
 
 echo " " 
 echo  "BUILDING HECVM++++++++++++++++++"  
 cd  ${BLDROOT}/hecvm/
-rm ./hecvm
+rm -rf ./hecvm
 make hecvm
 
 echo " " 
 echo  "BUILDING RAWBIN+++++++++++++++++"  
 cd  ${BLDROOT}/rawbin/
-rm ./rawbin
+rm -rf ./rawbin
 make rawbin
 
 echo " " 
 echo  "BUILDING FILEDMP++++++++++++++++"  
 cd  ${BLDROOT}/util/filedmp/
-rm ./filedmp
+rm -rf ./filedmp
 make filedmp
 
 echo " " 
 echo  "BUILDING NUMFMT+++++++++++++++++"  
 cd  ${BLDROOT}/util/numfmt/
-rm ./numfmt
+rm -rf ./numfmt
 make numfmt
 
 echo " " 

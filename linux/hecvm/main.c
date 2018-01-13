@@ -72,13 +72,13 @@
 + public prototypes                                                 +
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-void main(int argc, char *argv[]);
+int main(int argc, char *argv[]);
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 + function definitions                                              +
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	struct CmdLine cl;
 	
@@ -122,6 +122,6 @@ void main(int argc, char *argv[])
 	
 	DBG_MAIN0("6) HEC VM shutting down via HALT instruction\n");
 	shutDown(SHUTDOWN_OK);
-	return;
+	return 0;
 
 }/*end main*/
